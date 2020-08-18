@@ -1,10 +1,13 @@
-package org.launchcode.java.demos;
+import java.util.Scanner;
 
-/**
- * From "Java Web Development"
- */
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello, World");
+        Scanner input  = new Scanner(System.in);
+
+        System.out.println("Please enter your first name: ");
+        String name = input.next();
+        input.close();
+
+        System.out.println("Hello, " + name + "!");
     }
 }
