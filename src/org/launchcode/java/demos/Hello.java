@@ -1,3 +1,5 @@
+package org.launchcode.java.demos;
+
 import java.util.Scanner;
 
 public class Hello {
